@@ -1,3 +1,5 @@
+void display
+
 //Write void function protype named prompt_user with no parameters
 
 
