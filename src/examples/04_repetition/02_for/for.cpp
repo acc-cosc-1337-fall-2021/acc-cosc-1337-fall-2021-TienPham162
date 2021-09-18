@@ -14,4 +14,24 @@ RESULT:
 5
 
 */
+void display_numbers(int num)
+{
+    for(int i=0; i < num; i++)
+    {
+        std::cout<<i+1<<"\n";
+
+    }
+}
+
+void display_text(std::string str)
+{
+    for(auto ch: str)
+    {
+
+        std::cout<<ch<<"\n";
+        ch = 'z';
+    }
+
+    std::cout<<str<<"\n";
+}
 
