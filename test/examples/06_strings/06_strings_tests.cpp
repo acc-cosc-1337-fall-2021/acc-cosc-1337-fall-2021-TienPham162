@@ -3,4 +3,10 @@
 
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
+
+}
+
+TEST_CASE("TEST STRING VALUE, REFERENCE")
+{
+	string s1
 }
