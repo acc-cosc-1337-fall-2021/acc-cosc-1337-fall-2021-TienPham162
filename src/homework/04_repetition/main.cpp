@@ -37,6 +37,7 @@ int main()
 
 		cout << "The factorial sum is: " << sum << endl;
 
+		goto MENU;
 	}
 	
 	else if (options == '2')
@@ -50,6 +51,7 @@ int main()
 
 		cout << "The gcd number is: " << result << endl;
 
+		goto MENU;
 	}
 	
 	else 
